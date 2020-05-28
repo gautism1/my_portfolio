@@ -14,7 +14,7 @@ function Cent() {
                 My name is Vipin,Enthusiastic youtuber , <br></br>free-lancer Full stack developer,</h2>
                 
               <b> <p>I am quick learner of different technologies<br></br>
-               and good technical skills in feild of Web and programming</p></b>
+               and good technical skills in field of Web and programming</p></b>
              </div>
       </div>      
          <div className="photo"> 

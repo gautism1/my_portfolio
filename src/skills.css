@@ -22,20 +22,23 @@
 }
 .dds{
      height:100px;
-    width:100px;
+     width:100px;
 }
 .react{
      height:100px;
-     width:150px;
+     width:100px;
 }
 .exp{
-    width:200px;
+    width:100px;
     height:100px;
 }
  .skill_logo{
        margin-left:0%;
        height:300px;
        flex:1;
+ }
+ .items{
+     margin:3%;
  }
  .logo{
      margin:10%;;

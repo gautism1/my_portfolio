@@ -106,24 +106,23 @@ display:flex;
 justify-content:space-evenly;flex-wrap:wrap;
 }
 .item{
-  height:300px;
-  width:300px;
+  height:auto;
+  width:200px;
   box-shadow: 0 8px 30px -6px grey;margin-top:3%;
-  
   align-items:center;
   justify-content:space-evenly;
  
 }
 .youd{
-  height:300px;
-  width:300px;
+  height:200px;
+  width:200px;
 }
 .local{
-   height:300px;
-  width:300px;
+   height:200px;
+  width:200px;
 }
-.calci{ height:300px;
-  width:300px;
+.calci{ height:200px;
+  width:200px;
 
 }
 a{
