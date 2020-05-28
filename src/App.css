@@ -90,7 +90,9 @@ nav {
 }
 .footer{
   align-items:center;
-  text-align:center;background:lightgrey;
+  text-align:center;
+  background:lightgrey;
+  margin-top:10%;
 }
 
 

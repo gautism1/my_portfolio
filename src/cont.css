@@ -48,7 +48,9 @@ img{
 }
 .cont_img{
     height:200px;
-    width:340px;
+    width:300px;
+     margin:0 auto;
     margin-top:5%;
-    }
+}
+
  
