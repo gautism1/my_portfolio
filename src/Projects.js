@@ -7,16 +7,28 @@ import './App.css';
 function  Projects() {
   return (
     <div  >
-    
-       <div className="project_front"> 
+      <h2>  Have a look on some of my LIVE  projects including this one(my portfolio)</h2>
+       <div className="project_front">
        <div className="item">  
-       
+       <a href="http://youd.herokuapp.com/" alt="link of youd">
        <img  className="youd" src={logo} alt="youdapp"></img>
+       </a>
+    <h3>  <u> <a href="http://youd.herokuapp.com/">Have a look on it</a>  </u></h3>
        </div>
-       <div className="item">  
-       <img  className="local" src={logo2} alt="localite"></img></div>
-       <div className="item">   <img  className="calci" src={logo3} alt="calculator"></img></div>
+       <div className="item"> 
+        <a href="http://localitee.herokuapp.com/" alt="link of localitee"> 
+       <img  className="local" src={logo2} alt="localite"></img>
+       </a>
+         <h3> <u>  <a href="http://localitee.herokuapp.com/">Have a look on it</a> </u></h3>
        </div>
+       <div className="item">   
+        <a href="http://calculatorzone.herokuapp.com" alt="link of calciZone">
+        <img  className="calci" src={logo3} alt="calculator"></img>
+        </a>
+      <h3><u>  <a href="http://calculatorzone.herokuapp.com" alt="calcu">Have a look on it</a> </u></h3>
+        </div>
+        </div>
+      
      
     </div>
   );

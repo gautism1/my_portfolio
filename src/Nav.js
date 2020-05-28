@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
- import { NavLink } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 function  Nav() {
   return (
     <div >
    
-     <nav> 
-        <ul className="ul-list"><span className="title">Gauti</span>
-          <NavLink to="/" className="link"><li>Home </li></NavLink>
-          <NavLink to="/Skills" className="link"><li>Skills   </li>  </NavLink>
-          <NavLink to="/Projects" className="link"> <li>Projects</li></NavLink>
-          <NavLink to="/Contact" className="link"> <li> Get in Touch/Hire me  </li></NavLink>
-         
+     <nav className="hamb"> 
+        <ul className="ul-list"><span className="title"><b>Myportfolio</b></span>
+          <Link to="/" className="link"><li>Home </li></Link>
+          <Link to="/Skills" className="link"><li>Skills   </li>  </Link>
+          <Link to="/Projects" className="link"> <li>Projects</li></Link>
+          <Link to="/Contact" className="link"> <li> Contact/Hire_me  </li></Link>
         </ul>
       </nav>
+      
         
     </div>
   );

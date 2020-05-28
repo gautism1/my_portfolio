@@ -1,26 +1,26 @@
-body{
-   
-}
-.main {
+ .main {
    height:100%;
    background-color:white;
    text-align:center;
-    
+   border-top:1px solid grey;
 }
+.this{
+  margin-left:10%;
+   margin-right:10%;
+}
+.cas{
+   display:flex;
+   flex-wrap:wrap;
+   margin-top:5%;
+ }
  .tagline
  {
     color:black;
     text-align:center;
-    margin-left:10%;
-    margin-top:5%;
  }
  .photo
  { 
    height:400px;
- }
- .cas{
-   display:flex;
-   flex-wrap:wrap;
  }
   .img1{
     height:20%;
@@ -30,19 +30,19 @@ body{
     margin-top:10%;
     height:50%;width:50%;
   }
- .intro{text-align:left;
+ .intro{
+   text-align:left;
    float:left;
  }
- li.activeon{
-   color:grey;
- }
+
  li:hover
  {
    color:grey;
    border-bottom:1px solid grey;
  }
 ul
- {margin:0;
+ {
+   margin:0;
    padding:25px;
   list-style: none;
 }
@@ -51,14 +51,12 @@ ul
   float:left;
   font-weight:bold;
 }
-.link:active{
-color:red;
-
-}
+ 
 nav {
   background-color: white;
   align-items: center;
   min-height: 10px;
+  border-bottom:1px solid  grey;
 }
 .link {
   text-Decoration: none;
@@ -70,7 +68,7 @@ nav {
 .link li {
   display: inline;
   margin: 3%;
- 
+  margin-top:5%;
 }
 
 .hi-hand {
@@ -106,9 +104,10 @@ justify-content:space-evenly;flex-wrap:wrap;
   height:300px;
   width:300px;
   box-shadow: 0 8px 30px -6px grey;margin-top:3%;
-  margin-left:3%;
+  
   align-items:center;
-  justify-content:center;margin-bottom:10%;
+  justify-content:space-evenly;
+ 
 }
 .youd{
   height:300px;
@@ -122,3 +121,8 @@ justify-content:space-evenly;flex-wrap:wrap;
   width:300px;
 
 }
+a{
+  color:black;
+  text-Decoration:none;
+}
+ 

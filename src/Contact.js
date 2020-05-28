@@ -8,11 +8,12 @@ import git from './github.gif';
  import mail from './mail.jpg';
  import call from './call.png';
 function  Contact() {
-  return (
+  return (<div>
+    <h2>  You can contact me through the following links</h2>
     <div className="cont">
-
+     
     <div className="cont_link"> 
-    
+
           <div className=" items cont_github">
             <a href="https://github.com/gautism1">
              <img src={git}   alt="github"></img>
@@ -31,9 +32,10 @@ function  Contact() {
            <a href="mailto:vip2ingautaam.m@gmail.com" >
                 <img src={mail}  alt="mail_info"></img></a>
         </div>
-</div>
+</div> 
          <div className="cont_icon">
          <img src={contact} className="cont_img" ></img></div>
+    </div>
     </div>
   );
 }

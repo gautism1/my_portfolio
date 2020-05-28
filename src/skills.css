@@ -4,6 +4,7 @@
     margin-left:10%;
 }
 .skill{
+    margin-top:5%;
     height: auto;
     flex-wrap:wrap;
     display: flex;  
@@ -13,14 +14,11 @@
 .skill_list{
     flex-wrap:wrap;
     display: flex;  
-    justify-content:space-evenly;
+    justify-content:space-between;
    flex:1;
 }
 .items{
-    height:100px;
-    width:100px;
-    margin-top:3%;
-    margin-right:10%;
+     margin:0 auto;
 }
 .dds{
      height:100px;
@@ -43,4 +41,10 @@
      margin:10%;;
      height:80%;
      width:80%;
+ }
+  @media screen and (max-width: 600px){
+
+     .skill{
+        display:block;
+     }
  }
