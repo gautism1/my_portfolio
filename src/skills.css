@@ -1,0 +1,46 @@
+/**/
+.skill_main{
+    height:auto;
+    margin-left:10%;
+}
+.skill{
+    height: auto;
+    flex-wrap:wrap;
+    display: flex;  
+    justify-content:space-evenly;
+    flex-direction:row;     
+}
+.skill_list{
+    flex-wrap:wrap;
+    display: flex;  
+    justify-content:space-evenly;
+   flex:1;
+}
+.items{
+    height:100px;
+    width:100px;
+    margin-top:3%;
+    margin-right:10%;
+}
+.dds{
+     height:100px;
+    width:100px;
+}
+.react{
+     height:100px;
+     width:150px;
+}
+.exp{
+    width:200px;
+    height:100px;
+}
+ .skill_logo{
+       margin-left:0%;
+       height:300px;
+       flex:1;
+ }
+ .logo{
+     margin:10%;;
+     height:80%;
+     width:80%;
+ }

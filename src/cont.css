@@ -1,0 +1,50 @@
+/**/
+.cont{
+   height:auto;
+   display:flex;
+   flex-wrap:wrap;
+    margin-Left:10%;
+    margin-top:5%;
+}
+.cont_link{
+   height:auto;
+   display:flex;
+   flex-wrap:wrap;
+  text-align:left;
+   padding:10px; float:left;
+   justify-content:space-between  ;
+}
+.cont_youtube
+{ align-items:center;
+    height:100px;
+}
+.cont_github
+{  align-items:center;
+    height:100px;
+}
+.cont_linkdin
+{align-items:center;
+    height:100px;
+    
+}
+.mail{align-items:center;
+    height:100px;
+}
+img{
+   text-align:left;
+    height:60px;
+    width:60px;
+}
+.items{
+    justify-content:center;
+    align-items:center;
+}
+.cont_icon{
+    width:683px;
+    height:400px;
+}
+.cont_img{
+    height:200px;
+    width:340px;
+    }
+ 
