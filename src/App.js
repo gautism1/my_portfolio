@@ -6,6 +6,7 @@ import Contact from './Contact';
  import Skills from './Skills';
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 import Nav from './Nav';
+import Footer from './footer';
 function App() {
   return (
 <Router>
@@ -23,6 +24,7 @@ function App() {
         </Switch>
         </div> 
        </div>
+       <Footer/>
     </div>
     </Suspense>
 
