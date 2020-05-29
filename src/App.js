@@ -1,12 +1,12 @@
 import React,  { Suspense, lazy } from 'react';
- import Cent from './Cent';
-import './App.css';
-import  Projects from './Projects';
-import Contact from './Contact';
- import Skills from './Skills';
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
-import Nav from './Nav';
-import Footer from './footer';
+import './App.css';
+ const Cent = lazy(() => import('./Cent'));
+const Projects = lazy(() => import('./Projects'));
+const Contact = lazy(() => import('./Contact'));
+const Skills = lazy(() => import('./Skills'));
+const Nav = lazy(() => import('./Nav'));
+const Footer = lazy(() => import('./footer'));
 function App() {
   return (
 <Router>

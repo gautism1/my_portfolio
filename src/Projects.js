@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
- import logo from './logo.png';
- import logo2 from './logo2.png';
- import logo3 from './calci.png';
- import { Link } from 'react-router-dom';
+import logo from './images/logo.png';
+import logo2 from './images/logo2.png';
+import logo3 from './images/calci.png';
+
 function  Projects() {
   return (
     <div  >

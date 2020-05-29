@@ -1,3 +1,4 @@
+ 
  .main {
    height:100%;
    background-color:white;
@@ -7,6 +8,7 @@
 .this{
   margin-left:10%;
    margin-right:10%;
+   
 }
 .cas{
    display:flex;

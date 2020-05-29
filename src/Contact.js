@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import './cont.css';
-import link from './linkdin.jpg';
-import youtube from './youtube.png';
-import git from './github.gif';
- import contact from './contact.svg'; 
- import mail from './mail.jpg';
- import call from './call.png';
+import link from './images/linkdin.jpg';
+import youtube from './images/youtube.png';
+import git from './images/github.gif';
+ import contact from './images/contact.svg'; 
+ import mail from './images/mail.jpg';
+  
 function  Contact() {
   return (<div>
     <h2>  You can contact me through the following links</h2>

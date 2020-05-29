@@ -1,8 +1,8 @@
 import React from 'react';
- import img from './exercise.svg';
+ import img from './images/exercise.svg';
 import './App.css';
- import laptop from './laptop.svg';
- import emo from './emo.jpg';
+ import laptop from './images/laptop.svg';
+ import emo from './images/emo.jpg';
 function Cent() {
   return (
     <div className="cas">

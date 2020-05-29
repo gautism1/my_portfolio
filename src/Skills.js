@@ -1,18 +1,18 @@
 import React from 'react'; 
 import './skills.css';
-import html from './html.jpg';
-import skilly from './skills.svg';
-import csss from './csss.png';
-import js from './js.png';
-import react from './react.png';
-import node from './node.jpg';
-import mysql from './mysql.png';
-import exp from './exp.png';
-import ds from './ds.jpg';
-import c from './download.png';
-import algo from './algo.jpg';
-import boot from './boot.png'
-import git from './github.gif';
+import html from './images/html.jpg';
+import skilly from './images/skills.svg';
+import csss from './images/csss.png';
+import js from './images/js.png';
+import react from './images/react.png';
+import node from './images/node.jpg';
+import mysql from './images/mysql.png';
+import exp from './images/exp.png';
+import ds from './images/ds.jpg';
+import c from './images/download.png';
+import algo from './images/algo.jpg';
+import boot from './images/boot.png'
+import git from './images/github.gif';
 function Skills() {
   return (
     <div>
