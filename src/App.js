@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ErrorBoundary from './HOC/ErrorBoundary';
 import './App.css';
 const HeroHeader = lazy(() => import('./HeroHeader'));
 const Projects = lazy(() => import('./Projects'));
@@ -8,39 +9,37 @@ const Skills = lazy(() => import('./Skills'));
 const Nav = lazy(() => import('./Nav'));
 const Footer = lazy(() => import('./footer'));
 
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false };
-  }
-
-  static getDerivedStateFromError(error) {
-    return { hasError: true };
-  }
-
-  render() {
-    if (this.state.hasError) {
-      return <p>Webapp Crashed  Please reload.</p>;
-    }
-
-    return this.props.children;
-  }
-}
-
 function App() {
-
-  const [darkMode, setDarkMode] = React.useState(false);
+  const [darkMode, setDarkMode] = React.useState(getInitialMode());
   React.useEffect(() => {
     localStorage.setItem("dark", JSON.stringify(darkMode));
   }, [darkMode]);
+
+  function getInitialMode() {
+    const isReturningUser = "dark" in localStorage;
+    const savedMode = JSON.parse(localStorage.getItem("dark"));
+    const userPrefersDark = getPrefColorScheme();
+    if (isReturningUser) {
+      return savedMode;
+    } else if (userPrefersDark) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  function getPrefColorScheme() {
+    if (!window.matchMedia) return;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
 
   return (
     <Router>
       <ErrorBoundary>
         <Suspense fallback={<h1>Loading Web App...</h1>}>
           <div className="App">
-            <div className="main" className={darkMode ? "main dark-mode" : " main light-mode"}>
-              <Nav setDarkMode={setDarkMode}/>
+            <div className={darkMode ? "main dark-mode" : " main light-mode"}>
+              <Nav setDarkMode={setDarkMode} darkMode={darkMode}/>
               <div className="this">
                 <Switch>
                   <Route path="/" exact component={HeroHeader} />
@@ -49,12 +48,11 @@ function App() {
                   <Route path="/Contact" component={Contact} />
                 </Switch>
               </div>
+              <Footer />
             </div>
-            <Footer />
           </div>
         </Suspense>
       </ErrorBoundary>
-
     </Router>
   );
 }

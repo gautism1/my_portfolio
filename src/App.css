@@ -2,6 +2,7 @@
   height: 100%;
   background-color: white;
   text-align: center;
+  height: 100vh;
 }
 .this {
   margin-left: 10%;
@@ -14,14 +15,18 @@
 }
 .tagline {
   color: black;
-  text-align: center;
+  flex: 1 1;
+  display: flex;
+  align-items: center;
 }
 .photo {
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 .img1 {
-  height: 20%;
-  width: 20%;
+  margin: auto 10px;
 }
 .log {
   margin-top: 10%;
@@ -64,7 +69,6 @@ nav {
 .link li {
   display: inline;
   margin: 3%;
-  margin-top: 5%;
 }
 
 .hi-hand {
@@ -101,12 +105,17 @@ nav {
 .footer {
   align-items: center;
   text-align: center;
-  background: lightgrey;
-  margin-top: 10%;
+  background: #e8ebed;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
 }
 
-/*NOW FOR PROJECT CSS*/
-/**/
+.footer h3 {
+  margin: 0;
+}
+
 .project_front {
   height: auto;
   display: flex;
@@ -115,23 +124,23 @@ nav {
 }
 .item {
   height: auto;
-  width: 200px;
-  box-shadow: 0 8px 30px -6px grey;
+  width: 300px;
   margin-top: 3%;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 6px;
 }
 .youd {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 .local {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 .calci {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 a {
   color: black;
@@ -144,4 +153,110 @@ a {
 
 .dark-mode {
   background-color: #212121;
+}
+
+.dark-mode .title {
+  color: white;
+}
+
+.dark-mode h1 {
+  color: #ffc107;
+}
+
+.dark-mode h2 {
+  color: #84c9fb;
+}
+
+.dark-mode nav {
+  border-bottom: none;
+}
+.dark-mode .intro p {
+  color: white;
+}
+
+.links {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.dark-mode-img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.dark-mode .link {
+  color: aquamarine;
+}
+
+.repo-link {
+  color: #b5722f;
+}
+
+summary:foucs {
+  border: none;
+}
+
+.dark-mode summary {
+  color: #84c9fb;
+}
+
+.contact-link {
+  color: #5ecef4;
+}
+
+.dark-mode .contact-link {
+  color: #f6b553;
+}
+
+.projectCard {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border: 1px solid green;
+  border-radius: 3px;
+  text-align: left;
+  margin: 4px 0;
+}
+
+.dark-mode .projectCard {
+  color: aquamarine;
+}
+
+.projectList {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .photo {
+    display: block;
+    flex: auto;
+  }
+  .photo img {
+    min-width: 250px;
+  }
+  .title {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 21px;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .ul-list {
+    padding: 10px 10px;
+  }
+  .intro p {
+    text-align: center;
+  }
 }

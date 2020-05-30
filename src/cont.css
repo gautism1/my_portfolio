@@ -1,56 +1,48 @@
 /**/
-.cont{
-   height:auto;
-   display:flex;
-   flex-wrap:wrap;
-    margin:auto 0%;
-    margin-top:5%;
+.cont {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 0%;
+  margin-top: 5%;
 }
-.cont_link{
-   
-   display:flex;
-   flex-wrap:wrap;
-   align-items:center;
-   padding:10px; float:left;
-   box-shadow:3px 5px 30px 0px grey;
-   justify-content:space-around;
-   flex:1;
+.cont_link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  float: left;
+  box-shadow: 3px 5px 30px 0px grey;
+  justify-content: space-around;
+  flex: 1;
 }
-.cont_youtube
-{ align-items:center;
-    height:100px;
+.cont_youtube {
+  align-items: center;
+  height: 100px;
 }
-.cont_github
-{  align-items:center;
-    height:100px;
+.cont_github {
+  align-items: center;
+  height: 100px;
 }
-.cont_linkdin
-{
-    align-items:center;
-    height:100px;
-    
+.cont_linkdin {
+  align-items: center;
+  height: 100px;
 }
-.mail{align-items:center;
-    height:100px;
+.mail {
+  align-items: center;
+  height: 100px;
 }
-img{
-    
-    height:60px;
-    width:60px;
+.items {
+  justify-content: center;
+  text-align: center;
 }
-.items{
-    justify-content:center;
-  text-align:center;
+.cont_icon {
+  width: 683px;
+  height: 250px;
 }
-.cont_icon{
-    width:683px;
-    height:250px;
+.cont_img {
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 5%;
 }
-.cont_img{
-    height:200px;
-    width:300px;
-     margin:0 auto;
-    margin-top:5%;
-}
-
- 
