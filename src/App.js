@@ -1,7 +1,7 @@
-import React,  { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
- const Cent = lazy(() => import('./Cent'));
+const HeroHeader = lazy(() => import('./HeroHeader'));
 const Projects = lazy(() => import('./Projects'));
 const Contact = lazy(() => import('./Contact'));
 const Skills = lazy(() => import('./Skills'));
@@ -11,11 +11,11 @@ const Footer = lazy(() => import('./footer'));
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {hasError: false};
+    this.state = { hasError: false };
   }
 
   static getDerivedStateFromError(error) {
-    return {hasError: true};
+    return { hasError: true };
   }
 
   render() {
@@ -27,29 +27,33 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-
 function App() {
+
+  const [darkMode, setDarkMode] = React.useState(false);
+  React.useEffect(() => {
+    localStorage.setItem("dark", JSON.stringify(darkMode));
+  }, [darkMode]);
+
   return (
-<Router>
-<ErrorBoundary>
-  <Suspense fallback={<h1>Loading Web App...</h1>}>
-      <div className="App">
-      
-      <div className="main">
-        <Nav/>
-        <div className="this">
-        <Switch>
-           <Route path="/" exact component={Cent} />
-           <Route path="/Skills" component={Skills}/>
-           <Route path="/Projects" component={Projects}/>
-           <Route path="/Contact" component={Contact}/>
-        </Switch>
-        </div> 
-       </div>
-       <Footer/>
-    </div>
-    </Suspense>
-     </ErrorBoundary>
+    <Router>
+      <ErrorBoundary>
+        <Suspense fallback={<h1>Loading Web App...</h1>}>
+          <div className="App">
+            <div className="main" className={darkMode ? "main dark-mode" : " main light-mode"}>
+              <Nav setDarkMode={setDarkMode}/>
+              <div className="this">
+                <Switch>
+                  <Route path="/" exact component={HeroHeader} />
+                  <Route path="/Skills" component={Skills} />
+                  <Route path="/Projects" component={Projects} />
+                  <Route path="/Contact" component={Contact} />
+                </Switch>
+              </div>
+            </div>
+            <Footer />
+          </div>
+        </Suspense>
+      </ErrorBoundary>
 
     </Router>
   );

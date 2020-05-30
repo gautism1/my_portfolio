@@ -1,7 +1,15 @@
 const express = require('express');
 const path = require('path');
+const compression = require('compression');
+const helmet = require('helmet')
 
 const app = express();
+
+//security
+app.use(helmet())
+
+// compress all responses
+app.use(compression());
 
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'build')));

@@ -1,53 +1,52 @@
 /**/
-.skill_main{
-    height:auto;
-    margin-left:10%;
+.skill_main {
+  height: auto;
+  margin-left: 10%;
 }
-.skill{
-    margin-top:5%;
-    height: auto;
-    flex-wrap:wrap;
-    display: flex;  
-    justify-content:space-evenly;
-    flex-direction:row;     
+.skill {
+  margin-top: 5%;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
-.skill_list{
-    flex-wrap:wrap;
-    display: flex;  
-    justify-content:space-between;
-   flex:1;
+.skill_list {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
 }
-.items{
-     margin:0 auto;
+.items {
+  margin: 0 auto;
 }
-.dds{
-     height:100px;
-     width:100px;
+.dds {
+  height: 100px;
+  width: 100px;
 }
-.react{
-     height:100px;
-     width:100px;
+.react {
+  height: 100px;
+  width: 100px;
 }
-.exp{
-    width:100px;
-    height:100px;
+.exp {
+  width: 100px;
+  height: 100px;
 }
- .skill_logo{
-       margin-left:0%;
-       height:300px;
-       flex:1;
- }
- .items{
-     margin:3%;
- }
- .logo{
-     margin:10%;;
-     height:80%;
-     width:80%;
- }
-  @media screen and (max-width: 800px){
-
-     .skill{
-        display:block;
-     }
- }
+.skill_logo {
+  margin-left: 0%;
+  height: 300px;
+  flex: 1;
+}
+.items {
+  margin: 3%;
+}
+.logo {
+  margin: 10%;
+  height: 80%;
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .skill {
+    display: block;
+  }
+}
