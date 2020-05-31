@@ -76,26 +76,27 @@ const details = {
                 {
                     name: "My Gotofolio",
                     subHeading: "Open Source Project",
-                    details: "This is my portfolioc",
+                    details: "I have used reactjs,react hooks basics error bounary,suspense, minimal basics,i learn to have Darkmode in webapps This is my portfolioc",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
                 {
                     name: "Localitee",
                     subHeading: "City Weather Web App ",
-                    details: " Provides weather information of the city you want",
-                    livePreviewLink: "http://gotofolio.herokuapp.com/"
+                    details: "I learn fetch API call to get the weather data,to use setState()It provides weather information of the city you want.",
+                    livePreviewLink: "http://localitee.herokuapp.com/"
                 },
                 {
                     name: "YouD Web App",
                     subHeading: "Youtube video downloader",
-                    details: "It makes easy to download highest possible quality videos using there youtube links",
-                    livePreviewLink: "http://gotofolio.herokuapp.com/"
+                    details: "  I have used npm librarie to create this app.It makes easy to download highest possible quality videos using there youtube links.  ",
+                 
+                    livePreviewLink: "http://youd.herokuapp.com/"
                 },
                 {
                     name: "Calci",
                     subHeading: "Hub of Indian Financial Calculators",
-                    details: " Different types of calculators that are used in daily life(THIS IS UNDER DEVELOPMENT",
-                    livePreviewLink: "http://gotofolio.herokuapp.com/"
+                    details: "Learn to make react routes in this.Different types of calculators that are used in daily life(THIS IS UNDER DEVELOPMENT",
+                    livePreviewLink: "http://calculatorzone.herokuapp.com/"
                 }
 
 

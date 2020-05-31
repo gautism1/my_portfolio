@@ -108,6 +108,7 @@ nav {
   background: #e8ebed;
   position: fixed;
   width: 100%;
+  box-sizing:border-box;
   bottom: 0;
   padding: 10px;
 }
