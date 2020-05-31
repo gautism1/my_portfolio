@@ -1,21 +1,25 @@
 import React from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import daySvg from './images/sun.svg';
 import nightSvg from './images/night.svg';
+import details from './details';
 function Nav(props) {
+  const { navBar } = details;
+  const { navBarLinks } = navBar;
   return (
     <div>
       <nav className={props.darkMode ? "hamb dark-mode" : "hamb light-mode"} >
         <ul className="ul-list">
-          <span className="title">
-            <b>Vipin Gautam</b>
-          </span>
-          <Link to="/" className="link"><li>Home </li></Link>
-          <Link to="/Skills" className="link"><li>Skills   </li>  </Link>
-          <Link to="/Projects" className="link"> <li>Projects</li></Link>
-          <Link to="/Contact" className="link"> <li> Contact </li></Link>
-          <a className="link"> <li onClick={() => props.setDarkMode(prevMode => !prevMode)}><img className="dark-mode-img" src={props.darkMode  ? nightSvg :  daySvg}/> </li></a>
+          <span className="title"><b>{navBar.name}</b></span>
+          {navBarLinks.map((link , index) => (
+            <NavLink key={index} exact to={link.to} className="link" activeClassName="active" >{link.name}</NavLink>
+          ))
+          }
+          <span className="link" >
+            <li onClick={() => props.setDarkMode(darkMode => !darkMode)}>
+              <img className="dark-mode-img" src={props.darkMode ? nightSvg : daySvg} />
+            </li></span>
         </ul>
       </nav>
     </div>

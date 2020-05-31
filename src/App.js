@@ -2,6 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ErrorBoundary from './HOC/ErrorBoundary';
 import './App.css';
+
+
 const HeroHeader = lazy(() => import('./HeroHeader'));
 const Projects = lazy(() => import('./Projects'));
 const Contact = lazy(() => import('./Contact'));
@@ -13,8 +15,7 @@ function App() {
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
   React.useEffect(() => {
     localStorage.setItem("dark", JSON.stringify(darkMode));
-  }, [darkMode]);
-
+  }, [darkMode ]);
   function getInitialMode() {
     const isReturningUser = "dark" in localStorage;
     const savedMode = JSON.parse(localStorage.getItem("dark"));
@@ -27,12 +28,10 @@ function App() {
       return false;
     }
   }
-
   function getPrefColorScheme() {
     if (!window.matchMedia) return;
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   }
-
   return (
     <Router>
       <ErrorBoundary>
@@ -46,6 +45,7 @@ function App() {
                   <Route path="/Skills" component={Skills} />
                   <Route path="/Projects" component={Projects} />
                   <Route path="/Contact" component={Contact} />
+                  <Route render={() => <p className="link">Not found</p>} />
                 </Switch>
               </div>
               <Footer />

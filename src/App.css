@@ -40,7 +40,6 @@
 
 li:hover {
   color: grey;
-  border-bottom: 1px solid grey;
 }
 ul {
   margin: 0;
@@ -65,6 +64,7 @@ nav {
   font-weight: bold;
   font-size: 15px;
   padding: 5;
+  margin:auto 2%;
 }
 .link li {
   display: inline;
@@ -184,6 +184,7 @@ a {
   width: 20px;
   height: 20px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .dark-mode .link {
@@ -194,8 +195,8 @@ a {
   color: #b5722f;
 }
 
-summary:foucs {
-  border: none;
+summary:focus {
+  outline:none;
 }
 
 .dark-mode summary {
@@ -208,6 +209,17 @@ summary:foucs {
 
 .dark-mode .contact-link {
   color: #f6b553;
+}
+
+.active {
+color:Red;
+padding: 3px;
+border:1px solid red;
+border-radius: 3px;
+}
+
+.dark-mode .active {
+  border: 1px solid #8BC34A;
 }
 
 .projectCard {
@@ -232,6 +244,9 @@ summary:foucs {
   text-align: left;
 }
 @media only screen and (max-width: 600px) {
+  .main {
+    height: auto;
+  }
   .photo {
     display: block;
     flex: auto;
@@ -258,5 +273,13 @@ summary:foucs {
   }
   .intro p {
     text-align: center;
+  }
+  .footer {
+    font-size: 14px;
+    position: relative;
+  }
+  .this {
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
