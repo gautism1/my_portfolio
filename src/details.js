@@ -76,25 +76,25 @@ const details = {
                 {
                     name: "My Gotofolio",
                     subHeading: "Open Source Project",
-                    details: "Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.",
+                    details: "This is my portfolio",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
                 {
                     name: "Localitee",
                     subHeading: "City Weather Web App ",
-                    details: "Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.",
+                    details: " Provides weather information of the city you want",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
                 {
                     name: "YouD Web App",
                     subHeading: "Youtube video downloader",
-                    details: "Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.",
+                    details: "It makes easy to download highest possible quality videos using there youtube links",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
                 {
                     name: "Calci",
                     subHeading: "Hub of Indian Financial Calculators",
-                    details: "Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.",
+                    details: " Different types of calculators that are used in daily life(THIS IS UNDER DEVELOPMENT",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 }
 
