@@ -29,7 +29,7 @@ const details = {
     },
     home: {
         name: "VIPIN GAUTAM",
-        title: "Frontend Engineer",
+        title: "NOOB Youtuber,",
         subHeading: "I am quick learner of different technologies and good technical skills in field of Web and competitve programming",
     },
     skills: {
@@ -76,7 +76,7 @@ const details = {
                 {
                     name: "My Gotofolio",
                     subHeading: "Open Source Project",
-                    details: "This is my portfolio",
+                    details: "This is my portfolioc",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
                 {
