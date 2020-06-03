@@ -11,7 +11,7 @@ function Contact() {
         <div className="skill">
           <div className="skill_list">
             <h1>{contact.message} </h1>
-            {
+            {                                              //mak:ing an array to iterate over the contact info
               socialProfiles.map((profile , index) => (
                 <div className="skillCard" key={index}>
                   <code><b>{profile.name} </b>: {profile.subHeading} &nbsp;
