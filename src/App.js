@@ -21,7 +21,7 @@ function App() {
   function getInitialMode() {
     const isReturningUser = "dark" in localStorage;
     const savedMode = JSON.parse(localStorage.getItem("dark"));
-    const userPrefersDark = getPrefColorScheme();
+    const userPrefersDark = getPrefColorScheme();   //this gives the choice of the browser
     if (isReturningUser) {
       return savedMode;
     } else if (userPrefersDark) {
@@ -29,8 +29,9 @@ function App() {
     } else {
       return false;
     }
-  }
-  function getPrefColorScheme() {
+  }        //checks local storage and also checks preference of the browser
+
+  function getPrefColorScheme() {    //here  this is the code of checking into browser mode  lEarn this code 
     if (!window.matchMedia) return;
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   }

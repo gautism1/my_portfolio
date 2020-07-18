@@ -89,7 +89,6 @@ const details = {
                     name: "YouD Web App",
                     subHeading: "Youtube video downloader",
                     details: "  I have used npm librarie to create this app.It makes easy to download highest possible quality videos using there youtube links.  ",
-                 
                     livePreviewLink: "http://youd.herokuapp.com/"
                 },
                 {
