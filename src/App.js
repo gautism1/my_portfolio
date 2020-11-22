@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ErrorBoundary from './HOC/ErrorBoundary';
 import './App.css';
 
-
 const HeroHeader = lazy(() => import('./HeroHeader'));
 const Projects = lazy(() => import('./Projects'));
 const Contact = lazy(() => import('./Contact'));

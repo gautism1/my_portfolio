@@ -9,7 +9,7 @@ function HeroHeader() {
       <div className="tagline">
         <div className="intro">
           <span className="hi-hand img1" ></span>
-          <h1><code>Hey!<span className="hi-hand img1" role="img">👋</span> Technocrates</code></h1>
+          <h1><code>Hey!<span className="hi-hand img1" role="img"><span>👋 </span></span> Technocrates</code></h1>
           <h2><code>
             I am  {home.name} ,
             {home.title} </code>

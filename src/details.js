@@ -79,6 +79,12 @@ const details = {
                     details: "I have used reactjs,react hooks basics error bounary,suspense, minimal basics,i learn to have Darkmode in webapps This is my portfolioc",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
+                  {
+                    name: "ShortLi",
+                    subHeading: "URL shortening web-app",
+                    details: "It shorts the Url of any type ",
+                    livePreviewLink: "https://shortliiibackend.herokuapp.com/"
+                },
                 {
                     name: "Localitee",
                     subHeading: "City Weather Web App ",
@@ -94,10 +100,10 @@ const details = {
                 {
                     name: "Calci",
                     subHeading: "Hub of Indian Financial Calculators",
-                    details: "Learn to make react routes in this.Different types of calculators that are used in daily life(THIS IS UNDER DEVELOPMENT",
+                    details: "Learn to make react routes in this.Different types of calculators that are used in daily life(THIS IS UNDER DEVELOPMENT)",
                     livePreviewLink: "http://calculatorzone.herokuapp.com/"
                 }
-
+                   
 
             ]
     }
