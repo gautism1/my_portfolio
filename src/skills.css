@@ -49,7 +49,9 @@
     display: block;
   }
 }
-
+.Number{
+  color:grey;
+}
 
 
 .skillCard {

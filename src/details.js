@@ -63,7 +63,7 @@ const details = {
             {
                 name: "Mail",
                 subHeading: "Always on experiment mood , Feel free to contact",
-                callToActionText: "Mail Me ",
+                callToActionText: "Mail Me  ",
                 callToActionLink: "mailto:vipingautam.m@gmail.com",
             },
         ]
