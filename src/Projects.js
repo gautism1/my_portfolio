@@ -6,6 +6,7 @@ function Projects() {
   const { projectDetails } = projects;
   return (
     <div>
+      
       <div className="skil_main">
         <div className="skill">
           <div className="projectList">
@@ -20,6 +21,7 @@ function Projects() {
                       <summary >Details</summary>
                       <p>{project.details}</p></details>
                   </code>
+
                 </div>
 
               ))

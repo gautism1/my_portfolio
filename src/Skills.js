@@ -8,13 +8,14 @@ function Skills() {
       <div className="skil_main">
         <div className="skill">
           <div className="skill_list">
-            <h1>Skills & Tools </h1>
+            <div> <h1>Skills & Tools </h1>
             {Object.keys(details.skills).map((key) => (
               <div className="skillCard">
                 <code><b>{key} </b>: {details.skills[key]}</code>
               </div>
             ))
             }
+            </div>
           </div>
           <div className="skill_logo">
             <img src={skilly} className="" alt="skilldemo"></img>

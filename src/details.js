@@ -29,15 +29,15 @@ const details = {
     },
     home: {
         name: "VIPIN GAUTAM",
-        title: "NOOB Youtuber,",
-        subHeading: "I am quick learner of different technologies and good technical skills in field of Web and competitve programming",
+        title: "",
+        subHeading: "I am quick learner of different technologies and have good technical skills in field of Web and programming",
     },
     skills: {
         "Frontend": "ReactJS , Bootstrap , HTML , CSS , JavaScript",
         "Backend": "NodeJs & Express",
         "Competitive Programming": "C++",
         "Tools": "Visual Studio Code , Git",
-        "Favourite Subject": "Operating Systems"
+        "Favourite Subject": "DBMS ,Automata"
     },
     contact: {
         "message": "Looking for Summer Internship",
@@ -79,6 +79,12 @@ const details = {
                     details: "I have used reactjs,react hooks basics error bounary,suspense, minimal basics,i learn to have Darkmode in webapps This is my portfolioc",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
+                {
+                    name: "Notekia",
+                    subHeading: "Perosnalised To-do and much more",
+                    details: "Notekia keeps all the important notes without any login ,It contains POMODORO as well and lot more features yet to come ",
+                    livePreviewLink: "https://notekia.herokuapp.com/"
+                },
                   {
                     name: "ShortLi",
                     subHeading: "URL shortening web-app",
@@ -92,19 +98,18 @@ const details = {
                     livePreviewLink: "http://localitee.herokuapp.com/"
                 },
                 {
+                    name: "Litecode",
+                    subHeading: "A small template for Blogging site",
+                    details: " Responsive design in ReactJS , a small template for a simple Blogging site.It is only a statis design  ",
+                    livePreviewLink: "https://litecodee.herokuapp.com/"
+                },
+                {
                     name: "YouD Web App",
                     subHeading: "Youtube video downloader",
                     details: "  I have used npm librarie to create this app.It makes easy to download highest possible quality videos using there youtube links.  ",
                     livePreviewLink: "http://youd.herokuapp.com/"
-                },
-                {
-                    name: "Calci",
-                    subHeading: "Hub of Indian Financial Calculators",
-                    details: "Learn to make react routes in this.Different types of calculators that are used in daily life(THIS IS UNDER DEVELOPMENT)",
-                    livePreviewLink: "http://calculatorzone.herokuapp.com/"
                 }
-                   
-
+              
             ]
     }
 };

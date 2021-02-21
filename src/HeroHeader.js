@@ -15,7 +15,14 @@ function HeroHeader() {
             {home.title} </code>
           </h2>
           <p><code>{home.subHeading}</code></p>
+          <div>
+            <hr></hr>
+        <h3>Hashnode Profile</h3> 
+         
+        <a href="https://hashnode.com/@gauti" target="_blank" bold>Click here to have a look</a>
         </div>
+        </div>
+       
       </div>
       <div className="photo">
         <img className="log" src={laptop} alt="connectingpeople"/>
