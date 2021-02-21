@@ -9,17 +9,17 @@ function HeroHeader() {
       <div className="tagline">
         <div className="intro">
           <span className="hi-hand img1" ></span>
-          <h1><code>Hey!<span className="hi-hand img1" role="img"><span>👋 </span></span> Technocrates</code></h1>
+          <h1><code>Hello!<span className="hi-hand img1" role="img"><span>👋 </span></span>World</code></h1>
           <h2><code>
-            I am  {home.name} ,
+            I am  {home.name}
             {home.title} </code>
           </h2>
           <p><code>{home.subHeading}</code></p>
           <div>
             <hr></hr>
-        <h3>Hashnode Profile</h3> 
+        
          
-        <a href="https://hashnode.com/@gauti" target="_blank" bold>Click here to have a look</a>
+        <a href="https://hashnode.com/@gauti" target="_blank" className="hashnode"><h3>Hashnode Profile / Blog</h3> </a>
         </div>
         </div>
        

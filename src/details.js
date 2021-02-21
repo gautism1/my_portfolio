@@ -40,7 +40,7 @@ const details = {
         "Favourite Subject": "DBMS ,Automata"
     },
     contact: {
-        "message": "Looking for Summer Internship",
+        "message": "Looking for my first engergetic career opportunity",
         socialProfiles: [
             {
                 name: "New Youtube channel",
@@ -76,19 +76,19 @@ const details = {
                 {
                     name: "My Gotofolio",
                     subHeading: "Open Source Project",
-                    details: "I have used reactjs,react hooks basics error bounary,suspense, minimal basics,i learn to have Darkmode in webapps This is my portfolioc",
+                    details: "I have used reactjs,react hooks basics error bounary,suspense, minimal basics,i learn to have Darkmode in webapps This is my portfolio",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
                 },
                 {
                     name: "Notekia",
-                    subHeading: "Perosnalised To-do and much more",
+                    subHeading: "Personalised To-do ,Pomodoro and much more",
                     details: "Notekia keeps all the important notes without any login ,It contains POMODORO as well and lot more features yet to come ",
                     livePreviewLink: "https://notekia.herokuapp.com/"
                 },
                   {
                     name: "ShortLi",
                     subHeading: "URL shortening web-app",
-                    details: "It shorts the Url of any type ",
+                    details: "I have used ReactJs for frontend , NodeJs and mongodb for backend , Learn basics of redirecting ",
                     livePreviewLink: "https://shortliiibackend.herokuapp.com/"
                 },
                 {
