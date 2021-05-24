@@ -74,11 +74,17 @@ const details = {
         projectDetails:
             [
                 {
+                    name: "C.O.D.E ",
+                    subHeading: "College Developer website(in development phase)",
+                    details: "I am the executive founder and developing the frontend  of the website",
+                    livePreviewLink: "https://website-development.vercel.app/"
+                },
+                {
                     name: "My Gotofolio",
                     subHeading: "Open Source Project",
                     details: "I have used reactjs,react hooks basics error bounary,suspense, minimal basics,i learn to have Darkmode in webapps This is my portfolio",
                     livePreviewLink: "http://gotofolio.herokuapp.com/"
-                },
+                },  
                 {
                     name: "Notekia",
                     subHeading: "Personalised To-do ,Pomodoro and much more",
@@ -102,14 +108,7 @@ const details = {
                     subHeading: "A small template for Blogging site",
                     details: " Responsive design in ReactJS , a small template for a simple Blogging site.It is only a statis design  ",
                     livePreviewLink: "https://litecodee.herokuapp.com/"
-                },
-                {
-                    name: "YouD Web App",
-                    subHeading: "Youtube video downloader",
-                    details: "  I have used npm librarie to create this app.It makes easy to download highest possible quality videos using there youtube links.  ",
-                    livePreviewLink: "http://youd.herokuapp.com/"
-                }
-              
+                } 
             ]
     }
 };
