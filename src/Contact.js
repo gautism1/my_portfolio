@@ -2,6 +2,7 @@ import React from 'react';
 import './skills.css';
 import callSvg from './images/contact.svg';
 import details from './details';
+
 function Contact() {
   const { contact } = details;
   const { socialProfiles } = contact;
@@ -25,7 +26,6 @@ function Contact() {
             <br></br>
             <hr>
             </hr>
-           
           </div>
           <div className="skill_logo">
             <img src={callSvg} className="" alt="skilldemo"></img>
